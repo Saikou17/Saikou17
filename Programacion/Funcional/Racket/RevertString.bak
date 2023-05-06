@@ -1,0 +1,11 @@
+#lang racket
+(provide solution)
+
+(define (solution string)
+  (let loop ;Recursion con cola
+    [string string];Variable string 
+    [solucion ""]);Lista que contiene mi solucion
+  (eq? (string-length)(1)
+       (string-append solucion (string-ref string 0)))
+  (loop (substring string 0 (- (string-length string) 1))(string-append solucion (string-ref string (- (string-length string) 1)))))
+  
