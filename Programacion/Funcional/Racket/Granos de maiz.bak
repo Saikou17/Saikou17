@@ -1,0 +1,13 @@
+#lang racket
+
+(provide square total)
+
+(define (square a-square)
+  a-square)
+
+(define (total chessboard)
+  (let loop ([chessboard chessboard]
+            [res 0])
+  (if (equal? chessboard 1)
+      (+ 1 res)
+      (loop (- chessboard 1) (+ res square)))))
