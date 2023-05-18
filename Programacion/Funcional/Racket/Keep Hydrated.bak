@@ -1,0 +1,8 @@
+#lang racket
+
+(provide litres)
+
+(define (litres time)
+  (if (equal? (* time 0.5) 0)
+      0
+      (inexact->exact (round (* time 0.5)))))
