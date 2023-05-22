@@ -1,0 +1,7 @@
+#lang racket
+(provide leap-year?)
+
+(define (leap-year? year)
+  (cond [(and (equal?(remainder year 4)0)(not (equal?(remainder year 1000))))#t]
+        [(and (equal?(remainder year 4)0)(equal? remainder year 400))#t]
+        [else #f]))

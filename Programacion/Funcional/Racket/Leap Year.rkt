@@ -1,0 +1,7 @@
+#lang racket ;Esta línea establece el lenguaje de programación utilizado en el archivo como Racket
+(provide leap-year?) ;La línea (provide leap-year?) indica que la función leap-year? será visible para otros módulos o archivos que importen este código.
+
+(define (leap-year? year) ;Aquí se define la función leap-year? que toma un parámetro llamado year que representa el año que se desea verificar.
+  (cond [(and (equal?(remainder year 4)0)(not (equal?(remainder year 100)0)))#t] ;Esta línea establece una cláusula condicional utilizando el formulario cond. Si se cumple la condición (and (equal? (remainder year 4) 0) (not (equal? (remainder year 100) 0))), es decir, si el año es divisible por 4 y no es divisible por 100, entonces se devuelve #t (verdadero). Esto indica que el año es bisiesto.
+        [(and (equal?(remainder year 4)0)(equal? (remainder year 400)0))#t] ;Esta línea es otra cláusula condicional en el formulario cond. Si se cumple la condición (and (equal? (remainder year 4) 0) (equal? (remainder year 400) 0)), es decir, si el año es divisible por 4 y también es divisible por 400, entonces se devuelve #t. Esto también indica que el año es bisiesto
+        [else #f])) ;La cláusula else en el formulario cond se ejecutará si ninguna de las condiciones anteriores es verdadera. En este caso, devuelve #f (falso), lo que indica que el año no es bisiesto.
