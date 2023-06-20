@@ -1,7 +1,6 @@
 [comment]: <> (Agrego un gif para que se ve a bonito)
 
-![](https://raw.githubusercontent.com/Saikou17/Saikou17/main)
-<img src="https://media.tenor.com/QIspvZvpf7wAAAAC/purple-themed-anime-train-gif.gif" width="800px">
+![Profile](https://raw.githubusercontent.com/Saikou17/Saikou17/main/Media/anime-aesthetic.gif)
 
 [comment]: <> (Cambio el estilo de fuente con un HTML)
 
