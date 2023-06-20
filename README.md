@@ -1,9 +1,16 @@
 [comment]: <> (Agrego un gif para que se ve a bonito)
 
-![AnimeGif](https://raw.githubusercontent.com/Saikou17/Saikou17/main/Media/anime-aesthetic-view-inside-the-subway-zh0ga04bfwgoxnfl.gif)
+![](https://raw.githubusercontent.com/Saikou17/Saikou17/main)
+<img src="https://media.tenor.com/QIspvZvpf7wAAAAC/purple-themed-anime-train-gif.gif" width="800px">
 
 [comment]: <> (Cambio el estilo de fuente con un HTML)
 
-<span style="font-family:monaco; font-size:3em">Welcome to my GitHub</span>
+# Welcome to my GitHub
 
-Repositorio que contiene todo los proyecto que he desarrollado o largo de mi carrera profesional.
+<div style="text-align: justify;">
+<p>My name is Juan Pablo Cruz Rodriguez and I am a student from Tecnologico de Monterrey Campus Santa Fe. I am in my way to become a software developer trough the creation of personal projects which will help me to improve my experience and technical skills.
+</p>
+<p>
+This repository contains exercises and examples of various programming languages. Also, I always will be able to any chance to colaborate on a project, so don't wait to ask me anything.
+</p>
+</div>
