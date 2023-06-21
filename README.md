@@ -1,6 +1,6 @@
 [comment]: <> (Agrego un gif para que se ve a bonito)
 
-![Profile](https://raw.githubusercontent.com/Saikou17/Saikou17/main/Media/anime-aesthetic.gif)
+![Profile](https://raw.githubusercontent.com/Saikou17/Saikou17/main/Media/anime-aesthetic-imageonline.co-2355215.gif)
 
 [comment]: <> (Cambio el estilo de fuente con un HTML)
 
