@@ -14,6 +14,8 @@ This repository contains exercises and examples of various programming languages
 </p>
 </div>
 
+<img height=100em alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" align="right"/>
+
 <span style="font-family:common pixel,sans-serif;"><h2>📓**Programming Languages & Tech Tools**</h2></span>
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python&logoColor=FFF&color=000000)
 ![C++](https://img.shields.io/badge/-C++-05122A?style=flat&logo=C%2B%2B&color=000000)
