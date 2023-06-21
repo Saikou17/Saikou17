@@ -15,25 +15,25 @@ This repository contains exercises and examples of various programming languages
 </div>
 
 <span style="font-family:common pixel,sans-serif;"><h2>📓**Programming Languages & Tech Tools**</h2></span>
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python&logoColor=FFF&color=000000)&nbsp;
-![C++](https://img.shields.io/badge/-C++-05122A?style=flat&logo=C%2B%2B&color=000000)&nbsp;
-![R](https://img.shields.io/badge/-R-05122A?style=flat&logo=R&color=000000)&nbsp;
-![Math](https://img.shields.io/badge/-MATLAB-05122A?style=flat&logo=Mathworks&color=000000)&nbsp;
-![Mk](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=Markdown&color=000000)&nbsp;
-![C](https://img.shields.io/badge/-C-05122A?style=flat&logo=C&logoColor=FFF&color=000000)&nbsp;
-![C#](https://img.shields.io/badge/-C-05122A?style=flat&logo=C%20Sharp&color=000000)&nbsp;
-![Racket](https://img.shields.io/badge/-Racket-05122A?style=flat&logo=Racket&color=000000)&nbsp;
-![Elixir](https://img.shields.io/badge/-Elixir-05122A?style=flat&logo=Elixir&color=000000)&nbsp;
-![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5&logoColor=FFF&color=000000)&nbsp;
-![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=FFF&color=000000)&nbsp;
-![JavaS](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript&logoColor=FFF&color=000000)&nbsp;
-![Node](https://img.shields.io/badge/-Node-05122A?style=flat&logo=node.js&logoColor=FFF&color=000000)&nbsp;
-![SQL](https://img.shields.io/badge/-SQL-05122A?style=flat&logo=MySQL&logoColor=FFF&color=000000)&nbsp;
-![VisualStudio](https://img.shields.io/badge/-VS-05122A?style=flat&logo=VisualStudioCode&logoColor=FFF&color=000000)&nbsp;
-![Git](https://img.shields.io/badge/-GitBash-05122A?style=flat&logo=Git&logoColor=FFF&color=000000)&nbsp;
-![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=Github&logoColor=FFF&color=000000)&nbsp;
-![Unity](https://img.shields.io/badge/-Unity-05122A?style=flat&logo=Unity&logoColor=FFF&color=000000)&nbsp;
-![Unreal](https://img.shields.io/badge/-Unreal-05122A?style=flat&logo=UnrealEngine&logoColor=FFF&color=000000)&nbsp;
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python&logoColor=FFF&color=000000)
+![C++](https://img.shields.io/badge/-C++-05122A?style=flat&logo=C%2B%2B&color=000000)
+![R](https://img.shields.io/badge/-R-05122A?style=flat&logo=R&color=000000)
+![Math](https://img.shields.io/badge/-MATLAB-05122A?style=flat&logo=Mathworks&color=000000)
+![Mk](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=Markdown&color=000000)
+![C](https://img.shields.io/badge/-C-05122A?style=flat&logo=C&logoColor=FFF&color=000000)
+![C#](https://img.shields.io/badge/-C-05122A?style=flat&logo=C%20Sharp&color=000000)
+![Racket](https://img.shields.io/badge/-Racket-05122A?style=flat&logo=Racket&color=000000)
+![Elixir](https://img.shields.io/badge/-Elixir-05122A?style=flat&logo=Elixir&color=000000)
+![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5&logoColor=FFF&color=000000)
+![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=FFF&color=000000)
+![JavaS](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript&logoColor=FFF&color=000000)
+![Node](https://img.shields.io/badge/-Node-05122A?style=flat&logo=node.js&logoColor=FFF&color=000000)
+![SQL](https://img.shields.io/badge/-SQL-05122A?style=flat&logo=MySQL&logoColor=FFF&color=000000)
+![VisualStudio](https://img.shields.io/badge/-VS-05122A?style=flat&logo=VisualStudioCode&logoColor=FFF&color=000000)
+![Git](https://img.shields.io/badge/-GitBash-05122A?style=flat&logo=Git&logoColor=FFF&color=000000)
+![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=Github&logoColor=FFF&color=000000)
+![Unity](https://img.shields.io/badge/-Unity-05122A?style=flat&logo=Unity&logoColor=FFF&color=000000)
+![Unreal](https://img.shields.io/badge/-Unreal-05122A?style=flat&logo=UnrealEngine&logoColor=FFF&color=000000)
 
 <span style="font-family:common pixel,sans-serif;"><h2>📊**My Stats**</h2></span>
 <p align="center" >
