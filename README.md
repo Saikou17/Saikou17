@@ -26,7 +26,7 @@ This repository contains exercises and examples of various programming languages
 ![C#](https://img.shields.io/badge/-C-05122A?style=flat&logo=C%20Sharp&color=000000)
 ![Racket](https://img.shields.io/badge/-Racket-05122A?style=flat&logo=Racket&color=000000)
 ![Elixir](https://img.shields.io/badge/-Elixir-05122A?style=flat&logo=Elixir&color=000000)
-![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5&logoColor=FFF&color=000000)
+![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5&logoColor=FFF&color=000000)\
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=FFF&color=000000)
 ![JavaS](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript&logoColor=FFF&color=000000)
 ![Node](https://img.shields.io/badge/-Node-05122A?style=flat&logo=node.js&logoColor=FFF&color=000000)
