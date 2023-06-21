@@ -14,7 +14,7 @@ This repository contains exercises and examples of various programming languages
 </p>
 </div>
 
-<img height=100em alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" align="right"/>
+<img height=120em alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" align="right"/>
 
 <span style="font-family:common pixel,sans-serif;"><h2>📓**Programming Languages & Tech Tools**</h2></span>
 
@@ -49,4 +49,4 @@ This repository contains exercises and examples of various programming languages
 <a href="https://www.instagram.com/juanpacruz15/" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
 <a href="https://open.spotify.com/user/p1b2am8i4q3hxrm8ese5beagy?si=91248e1230e84920" target="_blank"><img src="https://img.shields.io/badge/Spotify-%231ED760.svg?&style=flat-square&logo=spotify&logoColor=white" alt="Spotify"></a>
 <a href="https://discordapp.com/users/476875222717431848" target="_blank"><img src="https://img.shields.io/badge/Discord-%230A0A0A.svg?&style=flat-square&logo=Discord&logoColor=blu" alt="Discord"></a>
-
+<a href="mailto:juanpabloss170@gmail.com"><img src="https://img.shields.io/badge/-Juan Pablo Cruz-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
