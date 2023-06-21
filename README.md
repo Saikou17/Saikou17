@@ -50,3 +50,4 @@ This repository contains exercises and examples of various programming languages
 <a href="https://open.spotify.com/user/p1b2am8i4q3hxrm8ese5beagy?si=91248e1230e84920" target="_blank"><img src="https://img.shields.io/badge/Spotify-%231ED760.svg?&style=flat-square&logo=spotify&logoColor=white" alt="Spotify"></a>
 <a href="https://discordapp.com/users/476875222717431848" target="_blank"><img src="https://img.shields.io/badge/Discord-%230A0A0A.svg?&style=flat-square&logo=Discord&logoColor=blu" alt="Discord"></a>
 <a href="mailto:juanpabloss170@gmail.com"><img src="https://img.shields.io/badge/-Juan Pablo Cruz-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://www.notion.so/Computer-Science-22c60700adc94c5892bb7e1fffd0cbf7?pvs=4"><img src="https://img.shields.io/badge/-My Notion-D14836?style=flat&logo=Notion&logoColor=white"/></a>
