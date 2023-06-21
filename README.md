@@ -14,3 +14,8 @@ This repository contains exercises and examples of various programming languages
 </p>
 </div>
 
+<span style="font-family:common pixel,sans-serif;"><h2>My Stats</h2></span>
+<p align="center" >
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Saikou17&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=2B5BBD&icon_color=1124BB&text_color=A1A1A1&bg_color=0,000000,130F40" alt="my Github Stats"/>
+    <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Saikou17&theme=tokyonight" alt="mystreak"/>
+</p>
