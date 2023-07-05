@@ -34,6 +34,41 @@ namespace reverse_string2{ //Otra forma de voltear una cadena
     }
 }
 
+namespace lagsana_teory{
+        // ovenTime returns the amount in minutes that the lasagna should stay in the
+    // oven.
+    int ovenTime() {
+        // TODO: Return the correct time.
+        cout << "40 Minutos\n";
+        return 40;
+    }
+    /* remainingOvenTime returns the remaining
+    minutes based on the actual minutes already in the oven.
+    */
+    int remainingOvenTime(int actualMinutesInOven) {
+        // TODO: Calculate and return the remaining in the oven based on the time
+        // the lasagna has already been there.
+        cout << "La lasagna le falta" <<ovenTime() - actualMinutesInOven << " Minutos.\n";
+        return ovenTime() - actualMinutesInOven;
+    }
+    /* preparationTime returns an estimate of the preparation time based on the
+    number of layers and the necessary time per layer.
+    */
+    int preparationTime(int numberOfLayers) {
+        // TODO: Calculate and return the preparation time with the
+        // `numberOfLayers`.
+        cout << "Te demoras " << numberOfLayers*2 << " poniendo las capas.\n";
+        return numberOfLayers*2;
+    }
+    // elapsedTime calculates the total time spent to create and bake the lasagna so
+    // far.
+    int elapsedTime(int numberOfLayers, int actualMinutesInOven) {
+        // TODO: Calculate and return the total time so far.
+        cout << "Has durado " << preparationTime(numberOfLayers)+actualMinutesInOven << " en preparar la lasagna\n";
+        return preparationTime(numberOfLayers)+actualMinutesInOven;
+    }
+}
+
 int main(){
     #ifdef anio_leap //El ifdef revisa o identifica si esta definido el identificador
         leap::anio(); //Codigo dentro del condicional
@@ -45,6 +80,12 @@ int main(){
     #ifdef reversa_string2
         string cadena2 = "Adios_Mundo!";
         reverse_string2::reversa2(cadena2);
+    #endif
+    #ifdef lasagna
+        lagsana_teory::ovenTime();
+        lagsana_teory::remainingOvenTime(30);
+        lagsana_teory::preparationTime(5);
+        lagsana_teory::elapsedTime(2,28);
     #endif
     return 0;
 }

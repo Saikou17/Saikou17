@@ -35,12 +35,15 @@ namespace Cat_years_Dog_years{
     vector<int> human_cat_dog_years(int humanYears){ //* Funcion que regresa un vecotor de enteros y recibe un numero de anios en humano
         switch(humanYears){ //* Switch para evaluar los diferentes casos
             case 1: //* Caso cuando el anio del humano es 1
+                cout << "El vector de los anios del humano, gato y perro es: 1,15,15";
                 return {1,15,15}; //* Retornamos un vector
                 break;
             case 2: //* Caso cuando el anio del humano es 2
+                cout << "El vector de los anios del humano, gato y perro es: 2,24,24";
                 return {2,24,24};  //* Retornamos un vector
                 break;
             default: //* Caso cuando el anio del humano es mayor a 2
+                cout << "El vector de los anios del humano, gato y perro es: " << humanYears << "," <<((humanYears-2)*4)+24 << "," << ((humanYears-2)*5)+24;
                 return {humanYears,((humanYears-2)*4)+24,((humanYears-2)*5)+24};  //* Retornamos un vector
                 break;
 
