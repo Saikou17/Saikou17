@@ -68,24 +68,3 @@ namespace lagsana_teory{
         return preparationTime(numberOfLayers)+actualMinutesInOven;
     }
 }
-
-int main(){
-    #ifdef anio_leap //El ifdef revisa o identifica si esta definido el identificador
-        leap::anio(); //Codigo dentro del condicional
-    #endif
-    #ifdef reversa_string1
-        string cadena = "Hola_Mundo!";
-        reverse_string1::reversa(cadena);
-    #endif
-    #ifdef reversa_string2
-        string cadena2 = "Adios_Mundo!";
-        reverse_string2::reversa2(cadena2);
-    #endif
-    #ifdef lasagna
-        lagsana_teory::ovenTime();
-        lagsana_teory::remainingOvenTime(30);
-        lagsana_teory::preparationTime(5);
-        lagsana_teory::elapsedTime(2,28);
-    #endif
-    return 0;
-}

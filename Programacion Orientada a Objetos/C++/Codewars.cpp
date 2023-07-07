@@ -51,16 +51,12 @@ namespace Cat_years_Dog_years{
     }
 }
 
-int main(){ //Funcion principal del archivo
-    #ifdef Vector //directiva que me permite correr cierta parte del archvio siguiendo una condicion
-        vector<int> lista={1,2,3,4,5}; //Defino mi vector
-        calculate_average::calcAverage(lista); //LLamo a mi muncion de la seccion de codigo o libreria del promedio
-    #endif
-    #ifdef bisiesto
-        leap_year::IsLeapYear(2010);
-    #endif
-    #ifdef anios_humanos
-        Cat_years_Dog_years::human_cat_dog_years(19);
-    #endif
-    return 0;
-}
+// namespace Let_Me_in{
+//     int get_in_line(vector<int> fila){ //* Funcion que devuelve el tiempo en minutos y recibe una lista o vector
+//         //* Primer paso es organizar el vector por prioridad. Recordemos que la prioridad es 1-2-3-0-etc. Podemos usar un bubble sort para el sort
+//         bool swaped = false; //* Usamos un trigger para activar el while
+//         while(!swaped){ 
+//             //TODO algoritmo de ordenamiento bubble sort
+//         }
+//     }
+// }
