@@ -10,6 +10,7 @@ using namespace std; //Usamos la libreria de codigo estandar(std) para manipular
 //* g++ -D(namespace) main.cpp (archivo de ejercicios.cpp)
 
 int main(){ //Funcion principal del archivo
+//* Ejercicios de Codewars
     #ifdef Vector //directiva que me permite correr cierta parte del archvio siguiendo una condicion
         vector<int> lista={1,2,3,4,5}; //Defino mi vector
         calculate_average::calcAverage(lista); //LLamo a mi muncion de la seccion de codigo o libreria del promedio
@@ -23,6 +24,7 @@ int main(){ //Funcion principal del archivo
     #ifdef anio_leap //El ifdef revisa o identifica si esta definido el identificador
         leap::anio(); //Codigo dentro del condicional
     #endif
+    //* Ejercicios de Exercism
     #ifdef reversa_string1
         string cadena = "Hola_Mundo!";
         reverse_string1::reversa(cadena);
@@ -37,6 +39,5 @@ int main(){ //Funcion principal del archivo
         lagsana_teory::preparationTime(5);
         lagsana_teory::elapsedTime(2,28);
     #endif
-    return 0;
     return 0;
 }
