@@ -3,6 +3,9 @@ using namespace std; //Usamos la libreria de codigo estandar(std) para manipular
 #include <iostream> 	//Para usar cout y cin
 #include <vector> //Incluimos la libreria que trabaja con vectores
 #include <stdlib.h>
+#include <algorithm> //Usamos la biblioteca para usar algortimos genericos
+#include <bits/stdc++.h>
+
 //*Incluimos los archivos headers
 #include "Codewars.hpp"
 #include "Exercism.hpp"
@@ -24,6 +27,9 @@ int main(){ //Funcion principal del archivo
     #ifdef anio_leap //El ifdef revisa o identifica si esta definido el identificador
         leap::anio(); //Codigo dentro del condicional
     #endif
+    #ifdef japan_restaurant
+        Let_Me_in::sorted_vector();
+    #endif
     //* Ejercicios de Exercism
     #ifdef reversa_string1
         string cadena = "Hola_Mundo!";
@@ -39,5 +45,9 @@ int main(){ //Funcion principal del archivo
         lagsana_teory::preparationTime(5);
         lagsana_teory::elapsedTime(2,28);
     #endif
+    #ifdef type_triangle
+        triangle::kind(3,3,2);
+    #endif
+
     return 0;
 }

@@ -23,5 +23,14 @@ namespace lagsana_teory{
     int elapsedTime(int numberOfLayers, int actualMinutesInOven);
 }
 
+namespace triangle {
+    enum class flavor{
+        equilateral,
+        isosceles,
+        scalene
+    };
+    flavor kind(double a,double b,double c);
+}  // namespace triangle
+
 
 

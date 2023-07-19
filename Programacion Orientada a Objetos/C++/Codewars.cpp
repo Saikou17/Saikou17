@@ -2,6 +2,8 @@ using namespace std; //Usamos la libreria de codigo estandar(std) para manipular
 #include <iostream> 	//Para usar cout y cin
 #include <vector> //Incluimos la libreria que trabaja con vectores
 #include <stdlib.h>
+#include <algorithm> //Usamos la biblioteca para usar algortimos genericos
+#include <bits/stdc++.h>
 
 //29 Junio
 namespace calculate_average{
@@ -51,12 +53,28 @@ namespace Cat_years_Dog_years{
     }
 }
 
-// namespace Let_Me_in{
-//     int get_in_line(vector<int> fila){ //* Funcion que devuelve el tiempo en minutos y recibe una lista o vector
-//         //* Primer paso es organizar el vector por prioridad. Recordemos que la prioridad es 1-2-3-0-etc. Podemos usar un bubble sort para el sort
-//         bool swaped = false; //* Usamos un trigger para activar el while
-//         while(!swaped){ 
-//             //TODO algoritmo de ordenamiento bubble sort
-//         }
-//     }
-// }
+namespace Let_Me_in{
+    vector<int> sorted_vector(vector<int> arreglo = {0,8,2,1,4,2,12,3,2}){ //*Esta funcion se encarga de organizar un arreglo de acuerdo al contexto del ejercicio
+        for(int i=0; i < arreglo.size(); i++){
+            if(arreglo[i]==0){
+                arreglo[i]=100;
+            }
+        }
+        for(int i=0; i < arreglo.size(); i++){ //*Usamos un for para recorrer el arreglo (Bubble Sort)
+            int valor;
+            for(int j=0; j < arreglo.size()-1; j++){ //*Este for realiza el cambio de las posiciones de los elementos
+                if(arreglo[j]>arreglo[j+1]&&(arreglo[j+1]==1||arreglo[j+1]==2)){
+                    valor = arreglo[j];
+                    arreglo[j]=arreglo[j+1];
+                    arreglo[j+1]=valor;
+                }
+            }
+        for(int i = 0; i < arreglo.size(); i++){
+            cout << arreglo[i];
+        }
+            
+        }
+        return arreglo;
+    }
+    //  int get_in_line(vector<int> fila){} //* Funcion que devuelve el tiempo en minutos y recibe una lista o vector
+}

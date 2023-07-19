@@ -2,6 +2,8 @@ using namespace std; //Incluimos para automaticamente agregar el prefijo std
 #include <iostream> //Usamos la biblioteca de std para el input y output de los datos
 #include <string> //Usamos la biblioteca para anipular y usar varios metodos de strings
 #include <algorithm> //Usamos la biblioteca para usar algortimos genericos
+#include<string>//* Libreria para manipular o utilizar funciones de strings
+#include<stdexcept>//* Esta libreria nos permite manejar los datos o respuetas por exepcion
 
 namespace leap{
     string anio(){ //Funcion que regresa un string y recibe un entero
@@ -67,4 +69,29 @@ namespace lagsana_teory{
         cout << "Has durado " << preparationTime(numberOfLayers)+actualMinutesInOven << " en preparar la lasagna\n";
         return preparationTime(numberOfLayers)+actualMinutesInOven;
     }
+
+    namespace triangle { //* Namespace de un ejercicios que averigua el tipo de triangulo
+     enum class flavor{
+        equilateral,
+        isosceles,
+        scalene
+    };
+    flavor kind(double a,double b,double c){    //* La funcion recibe 2 argumentos (lados) y devuelve 
+        if((a<=0||b<=0||c<=0)||(a+b<c||b+c<a||a+c<b)){ //* Condicional que evalua si el trinagulo es legal
+            throw domain_error("This triangle is ilegal."); //* Se utiliza un throw para devolver una exepcion
+        }
+        if(a == b && a == c && b == c){ //* Tres lados iguales
+            cout << "Triangulo equilatero";
+            return flavor::equilateral;
+        }
+        else if(a == b || a == c || c == b){ //* Dos lados iguales
+            cout << "Triangulo isosceles";
+            return flavor::isosceles;
+        }
+        else{ //* Ningun lado es igual
+            cout << "Triangulo escaleno";
+            return flavor::scalene;
+        }
+    }
+}  // namespace triangle
 }
