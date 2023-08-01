@@ -71,11 +71,6 @@ namespace lagsana_teory{
     }
 
     namespace triangle { //* Namespace de un ejercicios que averigua el tipo de triangulo
-     enum class flavor{
-        equilateral,
-        isosceles,
-        scalene
-    };
     flavor kind(double a,double b,double c){    //* La funcion recibe 2 argumentos (lados) y devuelve 
         if((a<=0||b<=0||c<=0)||(a+b<c||b+c<a||a+c<b)){ //* Condicional que evalua si el trinagulo es legal
             throw domain_error("This triangle is ilegal."); //* Se utiliza un throw para devolver una exepcion
