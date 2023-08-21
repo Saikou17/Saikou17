@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include "main.c" //* Incluyo mi archivo header
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -22,6 +22,21 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     return resultado;
 }
 
+int digitos(int number){ //*La funcion evalua cuantos digitos tiene un numero
+        int digits = 0; //* Aqui guardamos los digitos
+        if(number==0){ //*  Si el numero es cero devuelve una cifra
+            return 1;
+        } else{
+            while(number!=0){ //* Bucle condicional
+                number /= 10; //* Va operando sobre el numero y le van quitando los digitos 
+                digits ++; //* Incrementa en uno a la respuesta
+            }
+            printf("La cantidad de digitos del numero son %d",&digits)
+            return digits; //* Devuelve la cantidad de digitos del número
+        }
+
+    }a
+
 int main(){
     #ifdef sumar_numeros
         int nums[] = {2, 7, 11, 15};
@@ -37,6 +52,9 @@ int main(){
         } else {
             printf("No se encontró una solución.\n");
         }
+    #endif
+    #ifdef armstrong
+        digitos(27);
     #endif
     return 0;
 }

@@ -33,4 +33,3 @@ namespace triangle {
 }  // namespace triangle
 
 
-

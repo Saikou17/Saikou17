@@ -78,3 +78,9 @@ namespace Let_Me_in{
     }
     //  int get_in_line(vector<int> fila){} //* Funcion que devuelve el tiempo en minutos y recibe una lista o vector
 }
+
+namespace Modulo-3_Sequence {
+    int sequence(int n){
+        
+    }
+}

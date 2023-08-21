@@ -89,4 +89,4 @@ namespace lagsana_teory{
         }
     }
 }  // namespace triangle
-}
+
