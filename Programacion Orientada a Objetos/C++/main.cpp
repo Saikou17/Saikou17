@@ -30,6 +30,10 @@ int main(){ //Funcion principal del archivo
     #ifdef japan_restaurant
         Let_Me_in::sorted_vector();
     #endif
+    #ifdef subconjuntos
+        vector<int>a = {1,2,3,4};
+        subsets::estSubsets(a);
+    #endif
     //* Ejercicios de Exercism
     #ifdef reversa_string1
         string cadena = "Hola_Mundo!";

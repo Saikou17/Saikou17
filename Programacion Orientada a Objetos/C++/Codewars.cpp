@@ -79,8 +79,23 @@ namespace Let_Me_in{
     //  int get_in_line(vector<int> fila){} //* Funcion que devuelve el tiempo en minutos y recibe una lista o vector
 }
 
-namespace Modulo-3_Sequence {
-    int sequence(int n){
-        
+namespace subsets{
+
+    unsigned long long powerOf2(std::size_t exponent) { //*Usamos una operacion bitshift para operar con los bits y no valores numericos. La razon de esto es para no perder presicion en los resultados.
+    return 1ULL << exponent; //* ULL es un sufijo que se utiliza para especificar que un número literal debe ser interpretado como un unsigned long long en C++.
+}
+    //*Usamos una funcion template para recibir cualquier tipos de datos
+    template <typename T> //* Inicializamos el template
+    unsigned long long estSubsets(vector<T>conjunto){ //* Funcion que devuelve un ULL y recibe un vector de cualquier tipo de valores.
+        if(conjunto.size()==0){ //* Si el conjunto no tiene elementos
+            return 0;
+        }
+        vector<T>subconjuntos; //* Vector que guarda los elementos sin repetir del conjunto
+        for(typename std::vector<T>::size_type i = 0; i < conjunto.size(); i++){ //* Recorremos el vector 
+            if(find(subconjuntos.begin(),subconjuntos.end(),conjunto[i]) == subconjuntos.end()){ //* Si un elemento del conjunto no esta en el vector (Subconjuntos) lo agrega
+                subconjuntos.push_back(conjunto[i]);
+            }
+        }
+        return powerOf2(subconjuntos.size())-1; //* Devuelve los subconjuntos del conjunto (No se cuenta el vacio)
     }
 }
