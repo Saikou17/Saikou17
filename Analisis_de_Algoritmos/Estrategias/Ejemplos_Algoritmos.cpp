@@ -39,7 +39,45 @@ int fibonacciIterativo(int n){
     return f[n];
 }
 
+//* Strings
+
+//* Funcion de prefijos
+
+vector <int> prefixFunction(string pattern){
+    int pattern_length = pattern.length();
+    vector <int> pfxVector(pattern_length);
+    int i = 1;
+    int j = 0;
+    pfxVector[0] = 0;
+
+    while(i < pattern_length){
+        if (pattern[i]==pattern[j]){
+            pfxVector[i] = j+1;
+            i++;
+            j++;
+        }else{
+            if(j==0){
+                pfxVector[i]=0;
+                i++;}
+
+            else{
+                j = pfxVector[j-1];
+            }
+        }
+    }
+    
+    return pfxVector;
+}
+
+
 int main(){
     //* fibonacci Memoization
-    fibonacciMemo(100);    
+    // fibonacciMemo(100); 
+    string pattern_test = "AAAABAACD";
+    vector <int> vector_test1 = prefixFunction(pattern_test);
+    for(int i = 0; i < vector_test1.size(); i++){
+        cout << vector_test1[i] << " ";
+    }
+    return 0;
+
 }
