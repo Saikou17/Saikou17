@@ -7,6 +7,9 @@ using namespace std;
 #include <vector>
 #include <sstream>
 #include <algorithm>
+#include <stdio.h>
+#include <cstdlib>
+#include <cstring>
 
 //* Tarea de Algormitmos
 
@@ -111,8 +114,67 @@ vector <vector<int>> Kruskal(string archivo){
      return Kruskal;
 }
 
+//* Algoritmo KMP (Knuth-Morris-Prat)
+
+vector <int> prefix_function(string pattern) //* La funcion de prefijo recibe un patron en forma de caracter
+{
+    int x = 0, y = 1; //* Indices de que recorren nuestro string y el patron
+    vector <int> prefix; //* Creamos nuestro vector solucion
+    prefix.push_back(0); //* Inicializamos nuestro vector con 0
+
+    while (pattern[y] != '\0')
+    {
+        //printf("Comparing %c and %c\n", pattern[y], pattern[x]);
+        if (pattern[y] == pattern[x])
+        {
+            prefix.push_back(x);  
+            x++;
+        }
+        else if (pattern[y] == pattern[0])
+        {
+            prefix.push_back(0);
+            x = 1;
+        }
+        else
+        {
+            prefix.push_back(0);
+            x = 0;
+        }
+        y++;
+    }
+    for(int i=0; i<prefix.size(); i++){
+        cout<<" "<<prefix[i];
+    }
+    return(prefix);
+}
+
+// int    find_substring(char *main, char *pattern, int *match)
+// {
+//     int i, j = 0;
+
+//     for (i=0; i < strlen(main); i++)
+//     {
+//         //printf("%c %c\n", main[i], pattern[j]);
+//         if (pattern[j] == main[i])
+//         {
+//             j++;
+//         }
+//         else
+//         {
+//             //printf("Go to: %c in position %d\n", pattern[match[j -1]], match[j-1]);
+//             j = match[j+1];
+//         }
+//         if (pattern[j] == '\0')
+//         {
+//             return (i + 1 - strlen(pattern));
+//         }
+//     }
+//     return -1;
+// }
+
 int main(){
-    Kruskal("Archivo de pruebas.txt");
+    // Kruskal("Archivo de pruebas.txt");
+    prefix_function("aaaabaacd");
 }
 
 
