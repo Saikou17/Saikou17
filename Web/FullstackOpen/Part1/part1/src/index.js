@@ -38,7 +38,24 @@ const Total = ({parts}) => {
 const App = () => { //Declaramos una variable constante (no se puede reasignar) que no recibe ningun parametro
   console.log("Creamos un componente")//Este es el print en javascript
   const course = 'Half Stack application development'
-  const [counter,setCounter] = useState(0)
+  const [clicks,setClicks] = useState({left:0, right:0})
+  const handleLeftClick = () => {
+    const newClicks = { 
+      left: clicks.left + 1, 
+      right: clicks.right 
+    }
+    setClicks(newClicks)
+  }
+
+  const handleRightClick = () => {
+    const newClicks = { 
+      left: clicks.left, 
+      right: clicks.right + 1 
+    }
+    setClicks(newClicks)
+  }
+  const decreaseOne = () => setCounter(counter-1);
+  const restart = () => setCounter(0);
   const parts = [
     {
       name: 'Fundamentals of React',
@@ -61,9 +78,10 @@ const App = () => { //Declaramos una variable constante (no se puede reasignar) 
     <Header course={course}/>
     <Content parts={parts}/>
     <Total parts={parts}/>
-    <p>{counter}</p>
-    <button onClick={()=>setCounter(counter+1)}>Incrementar</button>
-    <button onClick={()=>setCounter(0)}>Reiniciar</button>
+    {clicks.left}
+    <button onClick={handleLeftClick}>left</button>
+    <button onClick={handleRightClick}>right</button>
+    {clicks.right}
   </div>
   )
 }
