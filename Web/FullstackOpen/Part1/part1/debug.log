@@ -2,3 +2,5 @@
 [0919/113555.475:ERROR:check.cc(222)] Check failed: false. 
 [0919/152057.410:ERROR:check.cc(222)] Check failed: false. 
 [0920/111710.043:ERROR:check.cc(222)] Check failed: false. 
+[0920/151702.204:ERROR:check.cc(298)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[0921/083452.322:ERROR:check.cc(298)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!

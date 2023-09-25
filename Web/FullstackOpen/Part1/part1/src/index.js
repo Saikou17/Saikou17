@@ -1,30 +1,35 @@
-import React from 'react'
+import React,{useState} from 'react'
 import ReactDOM from 'react-dom'
 
-const Hello = (props) => {
+const Hello = ({name,age}) => {
+  const yearBorn = () =>  new Date().getFullYear() - age
   return (
-    <p>Hello {props.name}, you are {props.age} years old</p>
+    <div>
+      <p>Hello {name}, you are {age} years old</p>
+      <p>You were born in {yearBorn()}</p>
+  </div>
+    
   )
 }
 
-const Header = (props) => {
-  return (<h1>{props.course}</h1>)
+const Header = ({course}) => {
+  return (<h1>{course}</h1>)
 }
 
-const Part = (props) =>{
-  return(<p>{props.part} {props.exercises}</p>)
+const Part = ({part,exercises}) =>{
+  return(<p>{part} {exercises}</p>)
 }
 
-const Content = (props) => {
+const Content = ({parts}) => {
   return (
     <div>
-      {props.parts.map((part)=>(<Part part={part.name} exercises={part.exercises}/>))}
+      {parts.map((part)=>(<Part part={part.name} exercises={part.exercises}/>))}
     </div>
   )
 }
 
-const Total = (props) => {
-  const total = props.parts.reduce((total,part)=>total+part.exercises,0)
+const Total = ({parts}) => {
+  const total = parts.reduce((total,part)=>total+part.exercises,0)
   return (
   <p>Number of exercises {total}</p>
   )
@@ -33,6 +38,7 @@ const Total = (props) => {
 const App = () => { //Declaramos una variable constante (no se puede reasignar) que no recibe ningun parametro
   console.log("Creamos un componente")//Este es el print en javascript
   const course = 'Half Stack application development'
+  const [counter,setCounter] = useState(0)
   const parts = [
     {
       name: 'Fundamentals of React',
@@ -55,11 +61,13 @@ const App = () => { //Declaramos una variable constante (no se puede reasignar) 
     <Header course={course}/>
     <Content parts={parts}/>
     <Total parts={parts}/>
+    <p>{counter}</p>
+    <button onClick={()=>setCounter(counter+1)}>Incrementar</button>
+    <button onClick={()=>setCounter(0)}>Reiniciar</button>
   </div>
   )
 }
 
 ReactDOM.render(
-  React.createElement(App,null),
-  document.getElementById('root')
-)
+  <App />,
+  document.getElementById('root'))
