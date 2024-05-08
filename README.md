@@ -37,6 +37,11 @@ This repository contains exercises and examples of various programming languages
 ![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=Github&logoColor=FFF&color=000000)
 ![Unity](https://img.shields.io/badge/-Unity-05122A?style=flat&logo=Unity&logoColor=FFF&color=000000)
 ![Unreal](https://img.shields.io/badge/-Unreal-05122A?style=flat&logo=UnrealEngine&logoColor=FFF&color=000000)
+![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=React&logoColor=FFF&color=000000)
+![MongoDB](https://img.shields.io/badge/-MongoDB-05122A?style=flat&logo=MongoDB&logoColor=FFF&color=000000)
+![Cisco](https://img.shields.io/badge/-Cisco-05122A?style=flat&logo=Cisco&logoColor=FFF&color=000000)
+![FastAPI](https://img.shields.io/badge/-FastAPI-05122A?style=flat&logo=FastAPI&logoColor=FFF&color=000000)
+![AWS](https://img.shields.io/badge/-AmazonWebServices-05122A?style=flat&logo=Amazon&logoColor=FFF&color=000000)
 
 <span style="font-family:common pixel,sans-serif;"><h2>📊**My Stats**</h2></span>
 <p align="center" >
